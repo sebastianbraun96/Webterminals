@@ -1,10 +1,10 @@
 # Webterminals
-This is a collection of different versions of webterminals fpr Modbus and ASCII communication.
+This is a collection of different versions of webterminals for Modbus-RTU and ASCII communication.
 
-Please note that the Scripts are programmed for the communication to (temperature- and humidity-) sensors with a specific firmware.
+Please note that the scripts are programmed for the communication with (temperature- and humidity-) sensors with a specific firmware.
 Open communication with manual input for Modbus or ASCII commands (depending on the version) is possible as well, though most functionalities are only accessible with the corresponding firmware on the end device.
 
-The main purpose of the Webterminal measurement series with mentioned temperature and humidity sensors.
+The main purpose of the Webterminal is the performance of measurement series with mentioned temperature and humidity sensors.
 This is possible with ASCII communication (Version XYXYXY) or Modbus communication (Version XYXYYXY).
 
 Modbus-Version (Modbus-Version):
@@ -12,20 +12,20 @@ Modbus-Version (Modbus-Version):
 - 3 ways of communication
     1. Single measurement (via one of the two buttons)
     2. multimeasurement (via Measurement Series Button) with multiple settings
-        up to 5 connected sensors
-        live updated data in chart (of all sensors in individual charts or combined charts)
-        manual stop or specific measurement time
-        adjustable measurment frequency (up to 1 Hz)
-        two measurands at the same time
-        data export in diferent file formats
+        - up to 5 connected sensors
+        - live updated data in chart (of all sensors in individual charts or combined charts)
+        - manual stop or specific measurement time
+        - adjustable measurment frequency (up to 1 Hz)
+        - two measurands at the same time
+        - data export in diferent file formats
     3. Modbus Config Mode (viaModbus setings) that allows individual built telegrams with different function codes
 - Several additional features for the terminal 
-  autoscroll
-  very detailed debug mode
+  - autoscroll
+  - very detailed debug mode
 - Chart settings
-  adding and removing a scrollbar
-  fixing axes to a certain value 
-  all while running measurements
+  - adding and removing a scrollbar
+  - fixing axes to a certain value 
+  - all while running measurements
 
 ASCII-Verion (ASCII-Verion):
 
