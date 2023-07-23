@@ -24,7 +24,8 @@ Modbus-Version (Modbus-Version):
   - very detailed debug mode
 - Chart settings
   - adding and removing a scrollbar
-  - fixing axes to a certain value 
+  - fixing axes to a certain value
+  - combining and separating graphs in different charts
   - all while running measurements
 
 ASCII-Verion (ASCII-Verion):
