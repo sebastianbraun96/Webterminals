@@ -19,7 +19,7 @@ Modbus-Version (Modbus-Version):
         - two measurands at the same time
         - data export in diferent file formats
     3. Modbus Config Mode (viaModbus setings) that allows individual built telegrams with different function codes
-- Several additional features for the terminal 
+- Additional features for the terminal 
   - autoscroll
   - very detailed debug mode
 - Chart settings
