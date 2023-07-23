@@ -37,6 +37,7 @@ All scripts build up on one another so it is best to start with the first one an
 
 Below you'll find a short description of each version and what it is about
 
+
 Handling of Webserial API (2.1):
 - creatin a port obkect and show accessible ports
 - open an port
@@ -44,6 +45,7 @@ Handling of Webserial API (2.1):
 - closing the port
 - autoscroll function
 - debug mode
+
 
 
 Single Measurement (2.2):
@@ -54,6 +56,7 @@ Single Measurement (2.2):
 - debug mode
 
 
+
 Measurement Series (2.3):
 - setting up intervall functions for transmission of data (in correct time periods)
 - processing received data
@@ -62,10 +65,12 @@ Measurement Series (2.3):
 - controlling data traffic with error handling 
 
 
+
 variable transmition data & CRC check (2.4):
 - composition of a mobus telegram
 - generation of crc checksum for transmition
 - verification of received crc checksum
+
 
 
 Data visualization with amCharts5 (2.5):
