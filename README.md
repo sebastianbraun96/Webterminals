@@ -32,43 +32,45 @@ ASCII-Verion (ASCII-Verion):
 
 Additional versions with smaller and less complex code samples can be accessed as well in order to comprehend functionalities used in the two versions above a bit better.
 These versions are fully functionable and work like smaller modules with specific features. 
-All scripts build up on one another so it is best to stat with the first one and work through all of them.
+All scripts build up on one another so it is best to stat with the first one and work through all of them. New features have specific comments so its easy to see what is new compared to the previous version
 
 Below you'll find a short description of each version and what it is about
 
-Handling of Webserial API ():
+Handling of Webserial API (2.1):
 - creatin a port obkect and show accessible ports
 - open an port
 - send and receive data
 - closing the port
+- autoscroll function
+- debug mode
 
 
-Single Measurement ():
-(fixed telegram)
+Single Measurement (2.2):
 - sending a fixed command via a button
 - receiving a temperature value
 - step by step data conversion
+- autoscroll function
+- debug mode
 
-Measurement Series ():
-(fixed telegram)
-- setting up intervall functions for transmition data (in correct time periods)
+
+Measurement Series (2.3):
+- setting up intervall functions for transmission of data (in correct time periods)
 - processing received data
   	- interpretation/ conversion
   	- storage
 - controlling data traffic with error handling 
 
 
-Data visualization with amCharts5 ():
-- chart elements and structure
-- multiple series in one chart
-- live data update
-- live chart manipulation
-- data export
-
-cariable transmition data & CRC check ():
+variable transmition data & CRC check (2.4):
 - composition of a mobus telegram
 - generation of crc checksum for transmition
 - verification of received crc checksum
+
+
+Data visualization with amCharts5 (2.5):
+- chart elements and structure
+- live data update
+- data export
 
 
 
