@@ -39,17 +39,15 @@ Below you'll find a short description of each version and what it is about
 
 
 Handling of Webserial API (2.1):
-- creatin a port obkect and show accessible ports
+- create a port object and show accessible ports
 - open an port
-- send and receive data
-- closing the port
-- autoscroll function
-- debug mode
+- close the port
+
 
 
 
 Single Measurement (2.2):
-- sending a fixed command via a button
+- send a fixed command via a button
 - receiving a temperature value
 - step by step data conversion
 - autoscroll function
@@ -58,7 +56,7 @@ Single Measurement (2.2):
 
 
 Measurement Series (2.3):
-- setting up intervall functions for transmission of data (in correct time periods)
+- setting up interval functions for transmission of data (in correct time periods)
 - processing received data
   	- interpretation/ conversion
   	- storage
