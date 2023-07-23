@@ -15,7 +15,7 @@ Modbus-Version (Modbus-Version):
         - up to 5 connected sensors
         - live updated data in chart (of all sensors in individual charts or combined charts)
         - manual stop or specific measurement time
-        - adjustable measurment frequency (up to 1 Hz)
+        - adjustable measurment frequency 
         - two measurands at the same time
         - data export in diferent file formats
     3. Modbus Config Mode (viaModbus setings) that allows individual built telegrams with different function codes
