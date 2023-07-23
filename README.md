@@ -33,7 +33,7 @@ ASCII-Verion (ASCII-Verion):
 
 Additional versions with smaller and less complex code samples can be accessed as well in order to comprehend functionalities used in the two versions above a bit better.
 These versions are fully functionable and work like smaller modules with specific features. 
-All scripts build up on one another so it is best to stat with the first one and work through all of them. New features have specific comments so its easy to see what is new compared to the previous version
+All scripts build up on one another so it is best to start with the first one and work through all of them. New features have specific comments so its easy to see what is new compared to the previous version
 
 Below you'll find a short description of each version and what it is about
 
