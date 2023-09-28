@@ -34,7 +34,6 @@ ASCII-Verion (ASCII-Verion):
 - 3 ways of communication
     1. Single measurement (via one of the two buttons)
     2. Multimeasurement (via Measurement Series Button) with multiple settings
-        - up to 5 connected sensors
         - live updated data in chart (of all sensors in individual charts or combined charts)
         - manual stop or specific measurement time
         - adjustable measurment frequency 
