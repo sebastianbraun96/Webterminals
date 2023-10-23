@@ -251,16 +251,16 @@ function showSettings() {
     // hide buttons on side bar that are irrelevant now
     document.getElementById("startMeasurement").style.display = "none";
     document.getElementById("measurement").style.display = "none";
-    document.getElementById("safeSettings").style.display = "block";
-    document.getElementById("safeSettings").style.backgroundColor = "green";
+    document.getElementById("saveSettings").style.display = "block";
+    document.getElementById("saveSettings").style.backgroundColor = "green";
     manualStop = false;
   }
 }
 
 // this function stores the values of the settings in global variables
-// when the button 'safe' is pressed
-// it displays the safed settings on the webpages terminal
-function safeSettings() {
+// when the button 'save' is pressed
+// it displays the saved settings on the webpages terminal
+function saveSettings() {
   // assigning measurementPeriod and measurementTime
   measurementPeriod = document.getElementById("period").value;
   measurementTime = document.getElementById("measurementTime").value;
@@ -284,8 +284,8 @@ function safeSettings() {
       document.getElementById("terminal").style.fontSize = "1vw";
     }
     // show new buttons and change content, go back to terminal
-    document.getElementById("safeSettings").style.display = "none";
-    document.getElementById("safeSettings").style.backgroundColor = "white";
+    document.getElementById("saveSettings").style.display = "none";
+    document.getElementById("saveSettings").style.backgroundColor = "white";
     document.getElementById("startMeasurement").innerHTML = "Start";
     document.getElementById("startMeasurement").style.display = "block";
     document.getElementById("startMeasurement").style.backgroundColor = "green";
@@ -314,7 +314,7 @@ function safeSettings() {
 
 /**********************************************Functions about enabling measurements************************************************************************* */
 
-// this function starts the serial measurements with the global variables with the safed values from settings
+// this function starts the serial measurements with the global variables with the saved values from settings
 // depending on the measurands interval functions are called in a specific frequency for a certain time before they are stopped
 async function startMeasurements() {
   if (connected) {

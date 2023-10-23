@@ -247,14 +247,14 @@ function showSettings() {
     document.getElementById("startMeasurement").style.display = "none";
     document.getElementById("measurement").style.display = "none";
     document.getElementById("visualize").style.display = "none";
-    document.getElementById("safeSettings").style.display = "block";
-    document.getElementById("safeSettings").style.backgroundColor = "green";
+    document.getElementById("saveSettings").style.display = "block";
+    document.getElementById("saveSettings").style.backgroundColor = "green";
     manualStop = false;
   }
 }
 
 
-function safeSettings() {
+function saveSettings() {
   measurementPeriod = document.getElementById("period").value;
   measurementTime = document.getElementById("measurementTime").value;
   if (document.getElementById("manualStop").checked) {
@@ -273,8 +273,8 @@ function safeSettings() {
     if (debug) {
       document.getElementById("terminal").style.fontSize = "1vw";
     }
-    document.getElementById("safeSettings").style.display = "none";
-    document.getElementById("safeSettings").style.backgroundColor = "white";
+    document.getElementById("saveSettings").style.display = "none";
+    document.getElementById("saveSettings").style.backgroundColor = "white";
     document.getElementById("startMeasurement").innerHTML = "Start";
     document.getElementById("startMeasurement").style.display = "block";
     document.getElementById("startMeasurement").style.backgroundColor = "green";

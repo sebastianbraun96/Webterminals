@@ -116,7 +116,7 @@ async function connectComPort() {
           }
           // if data is received it will be stored in an array (readValueArray)
           // Once this array contains a CR sign the array is converted to a string and displayed in the webpages terminal
-          // if a serial measurement is running (runningMeasurement == true) the data is stored in another Object in safeData()
+          // if a serial measurement is running (runningMeasurement == true) the data is stored in another Object in saveData()
           // there is no interpretation of the data before it is displayed!!
           if (value) {
             if (debug) {
@@ -414,9 +414,9 @@ function hideTimeSetting() {
 }
 
 // this function stores the values of the settings in global variables
-// when the button 'safe' is pressed
-// it displays the safed settings on the webpages terminal
-function safeSettings() {
+// when the button 'save' is pressed
+// it displays the saved settings on the webpages terminal
+function saveSettings() {
   let validSettings = true;
   if (document.getElementById("tempMeasurement").checked && document.getElementById("humMeasurement").checked) {
     measurand = "double";
@@ -473,7 +473,7 @@ function safeSettings() {
 
 }
 
-// this function starts the serial measurements with the global variables with the safed values from settings
+// this function starts the serial measurements with the global variables with the saved values from settings
 // depending on the measurands interval functions are called in a specific frequency for a certain time before they are stopped
 async function startMeasurements() {
   if (connected) {
@@ -494,7 +494,7 @@ async function startMeasurements() {
         getHumIntervalId = setInterval(() => { writeToPort(getHumidity); }, measurementPeriod * 1000);
       }
       else {
-        window.alert("Safe settings before starting the measurement!");
+        window.alert("Save settings before starting the measurement!");
       }
       // if settings are valid
       if (measurand != "empty") {
@@ -724,7 +724,7 @@ function exportSettings() {
   document.getElementById("exportSettings").style.display = "block";
 }
 
-function safeExportSettings() {
+function saveExportSettings() {
   filename = document.getElementById("fileName").value;
   am5ready();
   document.getElementById("exportSettings").style.display = "none";
@@ -979,7 +979,7 @@ function am5ready() {
 }
 
 // this function adds the latest objects of the data arrays to the series of the chart. 
-// It is called in the function safeData() whenever a new value is added to the array
+// It is called in the function saveData() whenever a new value is added to the array
 function liveData(measurementValue, axisSeries) {
   let size = measurementValue.length;
   let newestValue = measurementValue[size - 1];
